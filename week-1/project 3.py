@@ -1,0 +1,7 @@
+T=int(input("Enter time period:"))
+R=float(input("Enter annual interest rate:"))
+P=float(input("Enter principal amount:"))
+n=int(input("Enter number of months:"))
+M=float(input("Enter monthly payment:"))
+A = P*M*T(((1+(R/n)**(n*T)-1)/(R/n)))
+print("the value is:", A)
