@@ -1,0 +1,25 @@
+print("Izifin Technology Annual Tax Revenue (ATR) Calculator")
+
+name = input("What is your name? \n")
+age = int(input("How old are you? \n"))
+work_exp = int(input("How many years of work experience do you have at Izifin Technology? \n"))
+
+if work_exp > 25 and age >= 55 :
+    print("\n Calculating ATR...")
+    print("\n Your ATR is N5,600,000", name)
+
+elif work_exp > 20 and age >= 45 :
+    print("\n Calculating ATR...")
+    print("\n Your ATR is N4,480,000", name)
+
+elif work_exp > 10 and age >= 35 :
+    print("\n Calculating ATR...")
+    print("\n Your ATR is N1,500,000", name)
+
+elif work_exp < 10 and age < 35 :
+    print("\n Calculating ATR...")
+    print("\n Your ATR is N550,000", name)
+
+else :
+    print("\n Please enter an appropriate age/years of experience.")
+    
